@@ -55,7 +55,7 @@ div와 span은 일종의 제네릭 컨테이너
 ## 35. 엔티티 코드
 
 - HTML 대신 쓸 수 있는 특별한 코드 또는 시퀀스
-- &hearts; 처럼 &로 시작해서 ;로 끝난다
+- `&hearts;`(&hearts;) 처럼 &로 시작해서 ;로 끝난다
 - 타이핑 하기 어려운 글자(저작권 기호, 다이아몬드 모양 십자가, 화살표 등)
 
 [https://html.spec.whatwg.org/multipage/named-characters.html](https://html.spec.whatwg.org/multipage/named-characters.html)
