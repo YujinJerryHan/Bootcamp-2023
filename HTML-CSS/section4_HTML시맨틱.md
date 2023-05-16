@@ -75,6 +75,86 @@ main, header, nav, section, article, footer 등으로 구분하면 모두 div와
 
 ## 37. 시맨틱 요소 사용법
 
+시맨틱 요소는 div나 제네릭 컨테이너 대신 사용할 수 있는, 기능적인 차이가 없는 요소이다.
+
+main  
+
+- 문서(페이지)의 주요 내용.
+- 페이지 전반에서 계속 반복되는 내용(사이드바, nav 링크 저작권 정보, 로고 검색 형식 등)은 전부 제외하는 게 원칙
+
+nav
+
+- 페이지에서 내비게이션 링크 제공하는 것들을 나타냄
+- 다른 사이트로 이동하는 링크, 페이지 내에서 다른 곳으로 이동
+
+section
+
+- 웹사이트나 애플리케이션의 독립적인 부분을 나타냄
+- 단락을 하나의 그룹으로 묶고 싶다(테두리 컬러)면 div보다 section이 낫다
+
+article
+
+- 문서 내의 독립적인 구성
+- 날씨 위젯
+
+aside
+
+- 문서의 부수적 요소
+- 사이드바, 말풍선
+
+header, footer
+
+- 내용 소개
+- 링크, nav 포함
+
+footer
+
+- 링크
+
+그외 다양한 시맨틱 요소
+
+- time : 인라인 요소
+- figure : 독립적 내용. `<figcaption>` 이라는 요소 포함됨. 일러스트나 다이어그램처럼 사람들의 시선을 끌고 캡션이 함께 달린 것.
+- abbreviation
+- data
+
 ## 38. 스크린 리더 데모
 
+컴퓨터나 모바일 화면의 텍스트를 TTS를 통해 읽어주는 소프트웨어
+
 ## 39. VSCode 팁 : 에밋
+
+[https://docs.emmet.io/](https://docs.emmet.io/)
+
+(VSCode에 이미 설치된 기능)
+
+- HTML 마크업을 일일이 작성할 필요 없이 단축키로 빠르게 생성
+
+```html
+<!-- main>section>h1 -->
+<main>
+    <section>
+      <h1></h1>
+    </section>
+  </main>
+
+<!-- ul>li*5 -->
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+
+<!-- nav>ul>li*5>a[href=www.$.com] -->
+<nav>
+    <ul>
+      <li><a href="www.1.com"></a></li>
+      <li><a href="www.2.com"></a></li>
+      <li><a href="www.3.com"></a></li>
+      <li><a href="www.4.com"></a></li>
+      <li><a href="www.5.com"></a></li>
+    </ul>
+```
+
