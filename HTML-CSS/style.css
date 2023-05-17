@@ -32,10 +32,34 @@ button:active {
   background-color: violet;
 }
 
-.post:nth-of-type(2n){
+.post:nth-of-type(2n) {
   background-color: antiquewhite;
 }
 
-h2::first-letter{
+h2::first-letter {
   font-size: 30px;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  background-color: #ccff33;
+}
+
+#one {
+  background-color: aquamarine;
+  border-width: 5px;
+  border-color: black;
+  border-style: dotted;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+
+#two {
+  background-color: aqua;
+  border-radius: 50%;
+}
+
+#three {
+  background-color: blanchedalmond;
 }
