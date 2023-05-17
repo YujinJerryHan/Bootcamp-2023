@@ -35,13 +35,8 @@
 <br>
 
 ---
-<br>
-간단한 내용일 줄 알았는데 꽤나 복잡하고 어렵다. 기초적인 내용에 대해서도 공부를 해봐야 할 것 같다.
+
 
 (230514)
 
 추가로 공부할 키워드 : 클라이언트, 서버, 웹, 프로토콜, HTTP
-
-참고하기 좋은 블로그 :
-
-[https://velog.io/@jennyfromdeblock/클라이언트와-서버-빠르게-개념잡기](https://velog.io/@jennyfromdeblock/%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8%EC%99%80-%EC%84%9C%EB%B2%84-%EB%B9%A0%EB%A5%B4%EA%B2%8C-%EA%B0%9C%EB%85%90%EC%9E%A1%EA%B8%B0)
