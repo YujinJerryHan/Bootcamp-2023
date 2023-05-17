@@ -67,8 +67,10 @@
       <p>
         <label for="xs">xs: </label>
         <input type="radio" name="size" value="xs">
+
         <label for="s">s: </label>
         <input type="radio" name="size" value="s">
+        
         <label for="m">m: </label>
         <input type="radio" name="size" value="m">
       </p>
@@ -93,6 +95,21 @@
   <textarea name="requests" id="requests" cols="30" rows="7">hi</textarea>
 </p>
 <button>submit</button>
+    </form>
+    <h2>Validation Demo</h2>
+    <form action="/dummy">
+      <label for="first">Enter First Name</label>
+      <input type="text" name="first" id="first">
+      <p>
+        <label for="username">username</label>
+        <input type="text" id="username" name="username" minlength="5" maxlength="20" required>
+        <p>
+          <input type="email" required>
+          <input type="url">
+        </p>
+      
+      </p>
+      <button>Submit</button>
     </form>
   </body>
 </html>
