@@ -1,0 +1,36 @@
+h1 {
+  background-color: rgb(202, 237, 113);
+  border: 1px solid;
+  display: inline;
+}
+
+span {
+  background-color: aqua;
+  border: 1px solid;
+  width: 500px;
+  padding: 120px;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: aquamarine;
+  border: 5px solid;
+  display: inline-block;
+}
+
+article {
+  font-size: 15px;
+}
+
+ul {
+  font-size: 1.5em;
+}
+
+#rems ul {
+  font-size: 0.5em;
+}
+
+#rems li {
+  font-size: 1.8em;
+}

@@ -53,6 +53,7 @@ div {
   border-style: dotted;
   box-sizing: border-box;
   border-radius: 30px;
+  padding-top: 10px;
 }
 
 #two {
